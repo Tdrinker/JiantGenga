@@ -29,6 +29,10 @@ app.post("/hello", function (req, res, next) {
         botPayload = {
             text:  "Hey Tim, what kinda of block chain do you want to use?"
         };
+    } else if (userName === "ggao") {
+        botPayload = {
+            text:  "Hey Ge. You are amazing."
+        };
     }
 
     if (userName !== "slackbot") {
