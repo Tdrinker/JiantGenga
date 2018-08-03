@@ -1,0 +1,13 @@
+{
+  "name": "devdacticBot",
+  "version": "0.0.1",
+  "description": "Simple testing Node server",
+  "main": "app.js",
+  "author": "Ge Gao",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "request": "^2.87.0"
+  }
+}
