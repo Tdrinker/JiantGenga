@@ -22,9 +22,13 @@ app.post("/hello", function (req, res, next) {
     };
 
     if (userName === "rhooper") {
-        text: "Come on Bobby! Seriously! Buy us some woods to cut already"
+        botPayload = {
+            text:  "Come on Bobby! Seriously! Buy us some woods to cut already"
+        };
     } else if (userName === "tliu") {
-        text: "Ok Tim, what kinda of block chain do you want"
+        botPayload = {
+            text:  "Hey Tim, what kinda of block chain do you want to use?"
+        };
     }
 
     if (userName !== "slackbot") {
